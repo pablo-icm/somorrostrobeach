@@ -17,8 +17,9 @@ The boundary between art and science is often blurred. Both share a common found
             </p>
             <div class="card-tags">
                 <span class="card-tag">Digital Generative Art</span>
-                <span class="card-tag">Microscopy</span>
+                <span class="card-tag">Metagenomics</span>
                 <span class="card-tag">Plankton</span>
+                <span class="card-tag">Art and Science</span>
             </div>
         </div>
     </a>
@@ -45,7 +46,3 @@ The boundary between art and science is often blurred. Both share a common found
 
 ---
 
-> "The most beautiful thing we can experience is the mysterious. It is the source of all true art and science."
-> — Albert Einstein
-
-Science and art both attempt to capture truth—one through measurement and analysis, the other through emotion and perception. My work sits at this intersection, using artistic techniques to communicate scientific wonder.

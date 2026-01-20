@@ -1,0 +1,36 @@
+---
+title: "Unifying the known and unknown microbial coding sequence space"
+date: 2022-05-01
+type: paper
+authors:
+  - "Vanni, C."
+  - "Schechter, M. S."
+  - "Acinas, S. G."
+  - "Barberán, A."
+  - "Buttigieg, P. L."
+  - "Casamayor, E. O."
+  - "Delmont, T. O."
+  - "Duarte, C. M."
+  - "Eren, A. M."
+  - "Finn, R. D."
+  - "Kottmann, R."
+  - "Mitchell, A."
+  - "Sánchez, P."
+  - "Siren, K."
+  - "Steinegger, M."
+  - "Gloeckner, F. O."
+  - "Fernàndez-Guerra, A."
+journal: "eLife"
+volume: "11"
+pages: "e67667"
+doi: "10.7554/eLife.67667"
+link: "https://doi.org/10.7554/eLife.67667"
+keywords:
+  - "Bioinformatics"
+  - "Functional metagenomics"
+  - "Gene clusters"
+  - "Microbial genomics"
+  - "Phylogenomics"
+  - "Unknown function"
+abstract: "Genes of unknown function are among the biggest challenges in molecular biology, especially in microbial systems, where 40–60% of the predicted genes are unknown. Despite previous attempts, systematic approaches to include the unknown fraction into analytical workflows are still lacking. Here, we present a conceptual framework, its translation into the computational workflow AGNOSTOS and a demonstration on how we can bridge the known-unknown gap in genomes and metagenomes. By analyzing 415,971,742 genes predicted from 1749 metagenomes and 28,941 bacterial and archaeal genomes, we quantify the extent of the unknown fraction, its diversity, and its relevance across multiple organisms and environments. The unknown sequence space is exceptionally diverse, phylogenetically more conserved than the known fraction and predominantly taxonomically restricted at the species level. From the 71 M genes identified to be of unknown function, we compiled a collection of 283,874 lineage-specific genes of unknown function for Cand. Patescibacteria (also known as Candidate Phyla Radiation, CPR), which provides a significant resource to expand our understanding of their unusual biology. Finally, by identifying a target gene of unknown function for antibiotic resistance, we demonstrate how we can enable the generation of hypotheses that can be used to augment experimental data."
+---

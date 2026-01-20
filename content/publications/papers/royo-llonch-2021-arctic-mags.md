@@ -1,0 +1,31 @@
+---
+title: "Compendium of 530 metagenome-assembled bacterial and archaeal genomes from the polar Arctic Ocean"
+date: 2021-11-01
+type: paper
+authors:
+  - "Royo-Llonch, M."
+  - "Sánchez, P."
+  - "Ruiz-González, C."
+  - "Salazar, G."
+  - "Pedrós-Alió, C."
+  - "Sebastián, M."
+  - "Labadie, K."
+  - "Paoli, L."
+  - "M. Ibarbalz, F."
+  - "Zinger, L."
+  - "Churcheward, B."
+  - "Chaffron, S."
+  - "Eveillard, D."
+  - "Karsenti, E."
+  - "Sunagawa, S."
+  - "Wincker, P."
+  - "Karp-Boss, L."
+  - "Bowler, C."
+  - "Acinas, S. G."
+journal: "Nature Microbiology"
+volume: "6"
+pages: "1561-1574"
+doi: "10.1038/s41564-021-00979-9"
+link: "https://doi.org/10.1038/s41564-021-00979-9"
+abstract: "The Arctic Ocean is a unique marine environment characterized by extreme seasonality, cold temperatures, and ice cover. Despite its importance for global biogeochemical cycles, the microbial communities inhabiting this ocean remain poorly characterized at the genomic level. Here, we present a compendium of 530 metagenome-assembled genomes (MAGs) from 41 Tara Oceans polar samples spanning the epipelagic and mesopelagic zones of the Arctic Ocean. These MAGs represent 526 bacterial and 4 archaeal species, of which 68% could not be assigned to any known species. We found that Arctic MAGs are enriched in genes involved in cold adaptation, photoheterotrophy, and the degradation of algal-derived organic matter. Comparison with global ocean MAG catalogues revealed that 41% of the Arctic MAGs were exclusively found in polar waters, highlighting the unique composition of Arctic microbial communities. This resource provides new insights into the genomic diversity and metabolic potential of Arctic Ocean microbiomes."
+---

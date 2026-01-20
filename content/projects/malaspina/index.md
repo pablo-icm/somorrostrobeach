@@ -1,6 +1,11 @@
 ---
 title: "Malaspina Expedition"
-description: "Deep Ocean Microbiome Research"
+description: "Circumnavigation Expedition to investigate Global Change and Global Ocean Biodiversity."
+weight: 2
+tags:
+  - "Deep Ocean"
+  - "Global"
+  - "Vertical Profiles"
 cover:
     image: "/images/malaspina/massimo-tempesta.png"
     alt: "Malaspina Expedition"
@@ -8,7 +13,7 @@ cover:
 
 ## Overview
 
-The Malaspina Expedition (2010-2011) was a global circumnavigation research project studying the deep ocean. Our contribution focused on the analysis of metagenomes from vertical profiles across tropical and subtropical oceans.
+the Malaspina 2010 Circumnavigation Expedition sampled the marine microbiome in tropical and sub-tropical oceans, from the surface down to bathypelagic  waters (~4,000 m depth) between 2010 and 2011. This expedition has contributed to the  exploration of the patterns of microbial diversity and biogeography both in the sunlit and  dark oceans.
 
 ## The Expedition
 
@@ -19,31 +24,18 @@ Named after the 18th-century explorer Alejandro Malaspina, this Spanish research
 - Visited 34 countries on all continents
 - Involved over 400 scientists from 19 research institutions
 
-## Our Research
-
-We analyzed metagenomes from vertical profiles to understand:
-
-- **Bathypelagic microbial communities** (1000-4000m depth)
-- **Metabolic architecture** of deep ocean microbes
-- **Vertical stratification** of microbial diversity
-- **Biogeochemical cycling** in the deep ocean
-
-## Key Findings
-
-- Deep ocean harbors distinct microbial communities adapted to high pressure and darkness
-- Metabolic potential differs significantly between surface and deep waters
-- Identified key functional genes for carbon and nitrogen cycling in the bathypelagic zone
-- Established the first comprehensive atlas of deep ocean metagenomes
-
 ## Data & Resources
 
-- Marine picoplankton metagenomes and MAGs available on public repositories
-- Published datasets cover 11 vertical profiles from tropical/subtropical oceans
+- 76 picoplankton metagenomes and 2672 MAGs from 11 vertical profiles from tropical/subtropical ocean available on public repositories.
+- 58 metagenomes and 317 MAGs from the tropical/subtropical bathypelagic ocean.
 
 ## Publications
 
+Selected publications I have authored:
+
 - Sánchez et al. (2024). Marine picoplankton metagenomes and MAGs from eleven vertical profiles obtained by the Malaspina Expedition. *Scientific Data*
-- Acinas et al. (2021). Deep ocean metagenomes provide insight into the metabolic architecture of bathypelagic microbial communities. *Communications Biology*
+- Sebastián et al. (2024). Water aging and the quality of organic carbon sources drive niche partitioning of the active bathypelagic prokaryotic microbiome. *Limnology and Oceanography*  
+- Acinas, Sánchez et al. (2021). Deep ocean metagenomes provide insight into the metabolic architecture of bathypelagic microbial communities. *Communications Biology*
 
 ---
 

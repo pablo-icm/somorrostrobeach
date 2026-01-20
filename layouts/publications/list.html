@@ -1,0 +1,202 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+
+{{- if .Content }}
+<div class="post-content">
+  {{ .Content }}
+</div>
+{{- end }}
+
+<!-- Search box for publications -->
+<div class="pub-search-container">
+  <input type="text" id="pub-search" placeholder="Search publications by title, author, journal..." class="pub-search-input">
+</div>
+
+<!-- Publications grouped by year -->
+<div class="publications-container">
+  {{- $papers := where .Pages "Params.type" "paper" }}
+  {{- $preprints := where .Pages "Params.type" "preprint" }}
+
+  {{- if $papers }}
+  <h2 class="pub-section-title">Peer-Reviewed Publications</h2>
+
+  {{- $papersByYear := $papers.GroupByDate "2006" }}
+  {{- range $papersByYear }}
+  <div class="pub-year-group" data-year="{{ .Key }}">
+    <h3 class="pub-year">{{ .Key }}</h3>
+    <div class="pub-list">
+      {{- range .Pages }}
+      <article class="pub-item" data-title="{{ .Title | lower }}" data-authors="{{ delimit .Params.authors ", " | lower }}" data-journal="{{ .Params.journal | lower }}">
+        <div class="pub-content">
+          <h4 class="pub-title">
+            {{- if or .Params.abstract .Params.keywords }}
+            <a href="javascript:void(0)" class="pub-title-toggle" onclick="toggleAbstract(this)">{{ .Title }}</a>
+            {{- else if .Params.link }}
+            <a href="{{ .Params.link }}" target="_blank" rel="noopener">{{ .Title }}</a>
+            {{- else }}
+            {{ .Title }}
+            {{- end }}
+          </h4>
+          <p class="pub-authors">
+            {{- $authors := .Params.authors }}
+            {{- $highlighted := .Params.highlight_author | default "Sánchez, P." }}
+            {{- range $i, $author := $authors }}
+              {{- if $i }}, {{ end }}
+              {{- if or (in $author $highlighted) (in $author "Sánchez, P") (in $author "Sanchez, P") }}
+              <strong>{{ $author }}</strong>
+              {{- else }}
+              {{ $author }}
+              {{- end }}
+            {{- end }}
+          </p>
+          <p class="pub-journal">
+            <em>{{ .Params.journal }}</em>
+            {{- if .Params.volume }}, {{ .Params.volume }}{{ end }}
+            {{- if .Params.pages }}, {{ .Params.pages }}{{ end }}
+          </p>
+          {{- if .Params.doi }}
+          <a href="https://doi.org/{{ .Params.doi }}" class="pub-doi" target="_blank" rel="noopener">
+            DOI: {{ .Params.doi }}
+          </a>
+          {{- end }}
+          {{- if or .Params.abstract .Params.keywords }}
+          <div class="pub-details" style="display: none;">
+            {{- if .Params.keywords }}
+            <p class="pub-keywords"><strong>Keywords:</strong> {{ delimit .Params.keywords ", " }}</p>
+            {{- end }}
+            {{- if .Params.abstract }}
+            <div class="pub-abstract">
+              <strong>Abstract:</strong>
+              <p>{{ .Params.abstract }}</p>
+            </div>
+            {{- end }}
+            {{- if .Params.link }}
+            <p class="pub-link"><a href="{{ .Params.link }}" target="_blank" rel="noopener">View full article</a></p>
+            {{- end }}
+          </div>
+          {{- end }}
+        </div>
+      </article>
+      {{- end }}
+    </div>
+  </div>
+  {{- end }}
+  {{- end }}
+
+  {{- if $preprints }}
+  <h2 class="pub-section-title" style="margin-top: 3rem;">Pre-prints</h2>
+  <div class="pub-list">
+    {{- range $preprints }}
+    <article class="pub-item preprint" data-title="{{ .Title | lower }}" data-authors="{{ delimit .Params.authors ", " | lower }}" data-journal="{{ .Params.journal | lower }}">
+      <div class="pub-content">
+        <h4 class="pub-title">
+          {{- if or .Params.abstract .Params.keywords }}
+          <a href="javascript:void(0)" class="pub-title-toggle" onclick="toggleAbstract(this)">{{ .Title }}</a>
+          {{- else if .Params.link }}
+          <a href="{{ .Params.link }}" target="_blank" rel="noopener">{{ .Title }}</a>
+          {{- else }}
+          {{ .Title }}
+          {{- end }}
+        </h4>
+        <p class="pub-authors">
+          {{- $authors := .Params.authors }}
+          {{- range $i, $author := $authors }}
+            {{- if $i }}, {{ end }}
+            {{- if or (in $author "Sánchez, P") (in $author "Sanchez, P") }}
+            <strong>{{ $author }}</strong>
+            {{- else }}
+            {{ $author }}
+            {{- end }}
+          {{- end }}
+        </p>
+        <p class="pub-journal">
+          <em>{{ .Params.journal }}</em>
+          {{- if .Params.year }} ({{ .Params.year }}){{ end }}
+        </p>
+        {{- if .Params.doi }}
+        <a href="https://doi.org/{{ .Params.doi }}" class="pub-doi" target="_blank" rel="noopener">
+          DOI: {{ .Params.doi }}
+        </a>
+        {{- end }}
+        {{- if or .Params.abstract .Params.keywords }}
+        <div class="pub-details" style="display: none;">
+          {{- if .Params.keywords }}
+          <p class="pub-keywords"><strong>Keywords:</strong> {{ delimit .Params.keywords ", " }}</p>
+          {{- end }}
+          {{- if .Params.abstract }}
+          <div class="pub-abstract">
+            <strong>Abstract:</strong>
+            <p>{{ .Params.abstract }}</p>
+          </div>
+          {{- end }}
+          {{- if .Params.link }}
+          <p class="pub-link"><a href="{{ .Params.link }}" target="_blank" rel="noopener">View full article</a></p>
+          {{- end }}
+        </div>
+        {{- end }}
+      </div>
+    </article>
+    {{- end }}
+  </div>
+  {{- end }}
+</div>
+
+<script>
+function toggleAbstract(element) {
+  const article = element.closest('.pub-item');
+  const details = article.querySelector('.pub-details');
+  if (details) {
+    if (details.style.display === 'none') {
+      details.style.display = 'block';
+      element.classList.add('expanded');
+    } else {
+      details.style.display = 'none';
+      element.classList.remove('expanded');
+    }
+  }
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  const searchInput = document.getElementById('pub-search');
+  const pubItems = document.querySelectorAll('.pub-item');
+  const yearGroups = document.querySelectorAll('.pub-year-group');
+
+  searchInput.addEventListener('input', function() {
+    const query = this.value.toLowerCase().trim();
+
+    pubItems.forEach(item => {
+      const title = item.dataset.title || '';
+      const authors = item.dataset.authors || '';
+      const journal = item.dataset.journal || '';
+      const searchText = title + ' ' + authors + ' ' + journal;
+
+      if (query === '' || searchText.includes(query)) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+
+    // Hide year groups if all their items are hidden
+    yearGroups.forEach(group => {
+      const visibleItems = group.querySelectorAll('.pub-item[style="display: block"], .pub-item:not([style*="display"])');
+      const hiddenItems = group.querySelectorAll('.pub-item[style*="display: none"]');
+      if (hiddenItems.length === group.querySelectorAll('.pub-item').length) {
+        group.style.display = 'none';
+      } else {
+        group.style.display = 'block';
+      }
+    });
+  });
+});
+</script>
+
+{{- end }}{{/* end main */}}

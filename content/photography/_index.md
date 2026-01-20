@@ -152,9 +152,9 @@ document.addEventListener('keydown', function(e) {
                 An artistic exploration of plankton through analog photography. Using black and white techniques to reveal the hidden beauty of microscopic marine life.
             </p>
             <div class="card-tags">
-                <span class="card-tag">Analog</span>
-                <span class="card-tag">B&W</span>
-                <span class="card-tag">Plankton</span>
+                <span class="card-tag">Art and Science</span>
+                <span class="card-tag">Darkroom printing</span>
+                <span class="card-tag">Electron microscopy</span>
             </div>
         </div>
     </a>
@@ -167,9 +167,9 @@ document.addEventListener('keydown', function(e) {
                 Traditional silver gelatin printing in the darkroom. Each print is handcrafted using time-honored photographic techniques.
             </p>
             <div class="card-tags">
-                <span class="card-tag">Silver Gelatin</span>
-                <span class="card-tag">Handcraft</span>
-                <span class="card-tag">Traditional</span>
+                <span class="card-tag">Silver Gelatin prints</span>
+                <span class="card-tag">Darkroom printing</span>
+                <span class="card-tag">Analog photography</span>
             </div>
         </div>
     </a>
@@ -179,7 +179,7 @@ document.addEventListener('keydown', function(e) {
 
 ---
 
-## Follow My on Instagram
+## Instagram (hardly updated)
 
 {{< rawhtml >}}
 <a href="https://instagram.com/el_pableras" target="_blank" class="contact-card" style="max-width: 400px; margin: 0 auto;">

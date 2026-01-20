@@ -92,13 +92,6 @@ I'm always happy to discuss science, photography, or potential collaborations. F
         </div>
     </a>
 
-    <a href="https://www.researchgate.net/profile/YOUR_ID" target="_blank" class="project-card" style="text-decoration: none;">
-        <div class="card-content" style="text-align: center; padding: 2rem;">
-            <div style="font-size: 3rem; margin-bottom: 1rem;">🔬</div>
-            <h3 class="card-title">ResearchGate</h3>
-            <p class="card-description">Connect with me on ResearchGate</p>
-        </div>
-    </a>
 
 </div>
 {{< /rawhtml >}}

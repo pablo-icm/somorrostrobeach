@@ -1,0 +1,31 @@
+---
+title: "Marine picoplankton metagenomes and MAGs from eleven vertical profiles obtained by the Malaspina Expedition"
+date: 2024-01-01
+type: paper
+authors:
+  - "Sánchez, P."
+  - "Coutinho, F. H."
+  - "Sebastián, M."
+  - "Pernice, M. C."
+  - "Rodríguez-Martínez, R."
+  - "Salazar, G."
+  - "Cornejo-Castillo, F. M."
+  - "Pesant, S."
+  - "López-Alforja, X."
+  - "López-García, E. M."
+  - "Agustí, S."
+  - "Gojobori, T."
+  - "Logares, R."
+  - "Sala, M. M."
+  - "Vaqué, D."
+  - "Massana, R."
+  - "Duarte, C. M."
+  - "Acinas, S. G."
+  - "Gasol, J. M."
+journal: "Scientific Data"
+volume: "11(1)"
+pages: "141"
+doi: "10.1038/s41597-024-02974-1"
+link: "https://doi.org/10.1038/s41597-024-02974-1"
+abstract: "The ocean contains a large and highly diverse microbial assemblage whose members are responsible for key steps in global biogeochemical cycles. Therefore, characterization of the taxonomy, functional capabilities, and environmental interactions of these microbial communities is crucial to understand the ocean ecosystem. To help expand our knowledge of marine microbiomes we present a dataset of 94 metagenomes from 11 stations sampled during the Malaspina 2010 Expedition (10 metagenomic stations). Seawater samples were collected at three size fractions (0.2–0.8 µm (picoplankton), 0.8–5 µm (nanoplankton), and 5–20 µm (microplankton)) in surface and four oceanic depths: Deep Chlorophyll Maximum (DCM) epipelagic (Epi), mesopelagic (Meso), and bathypelagic (Bathy). The seawater filtered samples were sequenced, assembled, annotated, and binned to produce metagenome-assembled genomes (MAGs). Following quality control filtering, more than 134.7 billion reads and 377 high-quality MAGs remained available for downstream analyses, which collectively increased our catalog of uncultured marine microorganisms considerably."
+---

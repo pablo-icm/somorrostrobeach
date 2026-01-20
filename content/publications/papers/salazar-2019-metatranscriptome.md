@@ -1,0 +1,33 @@
+---
+title: "Gene Expression Changes and Community Turnover Differentially Shape the Global Ocean Metatranscriptome"
+date: 2019-11-01
+type: paper
+authors:
+  - "Salazar, G."
+  - "Paoli, L."
+  - "Alberti, A."
+  - "Huerta-Cepas, J."
+  - "Ruscheweyh, H.-J."
+  - "Cuenca, M."
+  - "Field, C. M."
+  - "Coelho, L. P."
+  - "Cruaud, C."
+  - "Engelen, S."
+  - "Gregory, A. C."
+  - "Labadie, K."
+  - "Marec, C."
+  - "Pelletier, E."
+  - "Royo-Llonch, M."
+  - "Roux, S."
+  - "Sánchez, P."
+  - "Uehara, H."
+  - "Zayed, A. A."
+  - "et al."
+  - "Wincker, P."
+journal: "Cell"
+volume: "179(5)"
+pages: "1068-1083"
+doi: "10.1016/j.cell.2019.10.014"
+link: "https://doi.org/10.1016/j.cell.2019.10.014"
+abstract: "Ocean microbial communities strongly influence the biogeochemistry, food webs, and climate of our planet. Despite recent advances in understanding their taxonomic and genomic compositions, little is known about how their transcriptomes vary globally. Here, we present a dataset of 187 metatranscriptomes and 370 metagenomes from 126 globally distributed sampling stations and establish a resource of 47 million genes to study community-level transcriptomes across depth layers from pole-to-pole. We examine gene expression changes and community turnover as the underlying mechanisms shaping community transcriptomes along these axes of environmental variation and show how their individual contributions differ for multiple biogeochemically relevant processes. Furthermore, we find the relative contribution of gene expression changes to be significantly lower in polar than in non-polar waters and hypothesize that in polar regions, alterations in community activity in response to ocean warming will be driven more strongly by changes in organismal composition than by gene regulatory mechanisms."
+---

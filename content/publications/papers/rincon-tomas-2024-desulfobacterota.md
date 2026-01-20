@@ -1,0 +1,36 @@
+---
+title: "Revisiting the mercury cycle in marine sediments: A potential multifaceted role for Desulfobacterota"
+date: 2024-02-01
+type: paper
+authors:
+  - "Rincón-Tomás, B."
+  - "Lanzén, A."
+  - "Sánchez, P."
+  - "Estupiñán, M."
+  - "Sanz-Sáez, I."
+  - "Bilbao, M. E."
+  - "Rojo, D."
+  - "Mendibil, I."
+  - "Pérez-Cruz, C."
+  - "Ferri, M."
+  - "Capo, E."
+  - "Abad-Recio, I. L."
+  - "Amouroux, D."
+  - "Bertilsson, S."
+  - "Sánchez, O."
+  - "Acinas, S. G."
+  - "Alonso-Sáez, L."
+journal: "Journal of Hazardous Materials"
+volume: "465"
+pages: "133120"
+doi: "10.1016/j.jhazmat.2023.133120"
+link: "https://doi.org/10.1016/j.jhazmat.2023.133120"
+keywords:
+  - "Mercury cycle"
+  - "Marine sediments"
+  - "Methylmercury"
+  - "Desulfobacterota"
+  - "mer operon"
+  - "hgcAB genes"
+abstract: "Mercury (Hg) accumulates in the biosphere as toxic methylmercury (MeHg) through a process that depends on bacterial activity mediated by hgcAB genes. In this study, we investigate the microbial community composition and the mer (detoxification), as well as hgcAB (methylation) operons present in the sediments of the Bilbao estuary, historically polluted by Hg from human activities. We detected a very high abundance of the mer operon (up to 8.9% of the community) and hgcAB (up to 0.45%), together with a great diversity of sequences phylogenetically related to these genes. We identified a potential multifaceted role for Desulfobacterota since they can harbor hgcAB as well as mer genes that belong to three different putative operons: (i) merAB + hgcAB; (ii) merAB without hgcAB and (iii) merA (lacking merB) together with hgcAB genes. The last two gene combinations have not been yet reported in microorganisms from polluted sediments and highlight the complexity and importance of investigating the Hg cycling. In addition, we discovered that Desulfobacterota may regulate the expression of Hg transporters and transcriptional regulators (arsR) in response to variable Hg concentrations. These findings bring the current consensus on the role of Desulfobacterota in MeHg cycling into question and highlight the need for experimental validation."
+---

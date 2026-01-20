@@ -1,0 +1,43 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description }}
+  </div>
+  {{- end }}
+</header>
+
+<!-- Dynamic Projects Grid -->
+<div class="cards-grid">
+  {{- $projects := where .Pages "Kind" "page" }}
+  {{- range $projects.ByParam "weight" }}
+  <a href="{{ .Permalink }}" class="project-card">
+    {{- if .Params.cover.image }}
+    <img src="{{ .Params.cover.image }}" alt="{{ .Params.cover.alt | default .Title }}" class="card-image">
+    {{- end }}
+    <div class="card-content">
+      <h3 class="card-title">{{ .Title }}</h3>
+      <p class="card-description">
+        {{ .Description }}
+      </p>
+      {{- if .Params.tags }}
+      <div class="card-tags">
+        {{- range .Params.tags }}
+        <span class="card-tag">{{ . }}</span>
+        {{- end }}
+      </div>
+      {{- end }}
+    </div>
+  </a>
+  {{- end }}
+</div>
+
+{{- if .Content }}
+<div class="post-content">
+  {{ .Content }}
+</div>
+{{- end }}
+
+{{- end }}{{/* end main */}}

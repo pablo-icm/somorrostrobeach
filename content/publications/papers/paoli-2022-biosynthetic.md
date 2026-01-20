@@ -1,0 +1,33 @@
+---
+title: "Biosynthetic potential of the global ocean microbiome"
+date: 2022-07-01
+type: paper
+authors:
+  - "Paoli, L."
+  - "Ruscheweyh, H.-J."
+  - "Forneris, C. C."
+  - "Hubrich, F."
+  - "Kautsar, S."
+  - "Bhushan, A."
+  - "Lotti, A."
+  - "Clayssen, Q."
+  - "Salazar, G."
+  - "Milanese, A."
+  - "Carlström, C. I."
+  - "Papadopoulou, C."
+  - "Gehrig, D."
+  - "Karasikov, M."
+  - "Mustafa, H."
+  - "Larralde, M."
+  - "Carroll, L. M."
+  - "Sánchez, P."
+  - "Zayed, A. A."
+  - "et al."
+  - "Sunagawa, S."
+journal: "Nature"
+volume: "607(7917)"
+pages: "111-118"
+doi: "10.1038/s41586-022-04862-3"
+link: "https://doi.org/10.1038/s41586-022-04862-3"
+abstract: "Natural microbial communities are an important source of therapeutically relevant small molecules. However, studying the biosynthetic potential of complex microbiomes at the global scale remains challenging. Here we systematically investigated the biosynthetic potential of the ocean microbiome—one of the largest microbiomes on Earth—by reconstructing ~40,000 putative biosynthetic gene clusters (BGCs) from ~10,000 metagenome samples. We found BGCs to be abundant in the ocean, with ~3% of microbial genomes encoding at least one cluster. We discovered that the majority of oceanic BGC diversity remains uncharted, with most clusters representing novel families. Moreover, we show that BGC composition varies in response to environmental parameters, such as temperature and oxygen, implying an adaptation of microbial secondary metabolism to environmental conditions. Finally, we identify candidate clusters for the biosynthesis of known molecules, enabling studies of their ecology and evolution. This work provides a resource of unprecedented scale to explore microbial biosynthetic potential in the ocean and serves as a blueprint for microbiome-scale studies of natural product diversity."
+---

@@ -60,7 +60,7 @@ params:
     - name: instagram
       url: "https://instagram.com/el_pableras"
     - name: email
-      url: "mailto:psalvador@icm.csic.es"
+      url: "mailto:pablosanchez@icm.csic.es"
 
   cover:
     hidden: false
