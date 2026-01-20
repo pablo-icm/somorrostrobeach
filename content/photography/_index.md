@@ -144,21 +144,6 @@ document.addEventListener('keydown', function(e) {
 {{< rawhtml >}}
 <div class="cards-grid">
 
-    <a href="/photography/planktographica/" class="project-card">
-        <img src="/images/planktographica/IMG_0246.jpg" alt="Planktographica" class="card-image">
-        <div class="card-content">
-            <h3 class="card-title">Planktographica</h3>
-            <p class="card-description">
-                An artistic exploration of plankton through analog photography. Using black and white techniques to reveal the hidden beauty of microscopic marine life.
-            </p>
-            <div class="card-tags">
-                <span class="card-tag">Art and Science</span>
-                <span class="card-tag">Darkroom printing</span>
-                <span class="card-tag">Electron microscopy</span>
-            </div>
-        </div>
-    </a>
-
     <a href="/photography/darkroom-work/" class="project-card">
         <img src="/images/photo/fageda-02.JPG" alt="Darkroom Work" class="card-image">
         <div class="card-content">
