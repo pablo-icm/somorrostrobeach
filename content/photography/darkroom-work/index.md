@@ -1,8 +1,8 @@
 ---
-title: "Darkroom Work"
+title: "Analog photography and Darkroom Work"
 description: "Traditional silver gelatin printing"
 cover:
-    image: "/images/planktographica/IMG_0251.jpg"
+    image: "/images/photo/olivera.jpg"
     alt: "Darkroom Work"
 ---
 
@@ -20,29 +20,6 @@ Working with film and traditional printing processes offers unique qualities:
 - **Permanence**: Properly processed prints can last centuries
 - **Meditative process**: The darkroom as a space for contemplation
 
-## Process
-
-### Film Development
-
-1. Loading film in complete darkness
-2. Careful temperature control during development
-3. Stop bath, fixing, and washing
-4. Drying and archiving negatives
-
-### Printing
-
-1. Contact sheets to select images
-2. Test strips for exposure
-3. Dodging and burning for local contrast control
-4. Multiple test prints before the final version
-5. Archival washing and toning
-
-## Materials
-
-- **Film**: Ilford HP5+, Kodak Tri-X, Fomapan
-- **Paper**: Ilford Multigrade, Fomabrom
-- **Chemistry**: Rodinal, ID-11, Multigrade developer
-- **Toners**: Selenium, sepia
 
 ## Gallery
 
@@ -70,12 +47,16 @@ Working with film and traditional printing processes offers unique qualities:
 </style>
 
 <div class="photo-gallery">
-    <img src="/images/planktographica/IMG_0251.jpg" alt="Darkroom 1" onclick="openLightbox(this.src)">
-    <img src="/images/planktographica/IMG_8630.jpg" alt="Darkroom 2" onclick="openLightbox(this.src)">
-    <img src="/images/planktographica/IMG_8631.jpg" alt="Darkroom 3" onclick="openLightbox(this.src)">
-    <img src="/images/planktographica/IMG_0244.jpg" alt="Darkroom 4" onclick="openLightbox(this.src)">
-    <img src="/images/planktographica/IMG_0245.jpg" alt="Darkroom 5" onclick="openLightbox(this.src)">
-    <img src="/images/planktographica/IMG_8632.jpg" alt="Darkroom 6" onclick="openLightbox(this.src)">
+    <img src="/images/photo/fageda-01.jpg" alt="Darkroom 1" onclick="openLightbox(this.src)">
+    <img src="/images/photo/fageda-02.JPG" alt="Darkroom 1" onclick="openLightbox(this.src)">
+    <img src="/images/photo/olivera.jpg" alt="Darkroom 1" onclick="openLightbox(this.src)">
+    <img src="/images/photo/sils-01.png" alt="Darkroom 1" onclick="openLightbox(this.src)">
+    <img src="/images/photo/sayago-1.png" alt="Darkroom 1" onclick="openLightbox(this.src)">
+    <img src="/images/photo/pereIV.jpg" alt="Darkroom 1" onclick="openLightbox(this.src)">
+    <img src="/images/photo/part-alta-01.jpg" alt="Darkroom 1" onclick="openLightbox(this.src)">
+    <img src="/images/photo/part-alta-02.jpg" alt="Darkroom 1" onclick="openLightbox(this.src)">
+    <img src="/images/photo/pisci-01.jpg" alt="Darkroom 1" onclick="openLightbox(this.src)">
+    <img src="/images/photo/gazte-01.png" alt="Darkroom 1" onclick="openLightbox(this.src)">
 </div>
 
 <div class="lightbox" id="lightbox" onclick="closeLightbox()">

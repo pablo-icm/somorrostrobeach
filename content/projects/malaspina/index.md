@@ -2,7 +2,7 @@
 title: "Malaspina Expedition"
 description: "Deep Ocean Microbiome Research"
 cover:
-    image: "/images/malaspina.jpg"
+    image: "/images/malaspina/massimo-tempesta.png"
     alt: "Malaspina Expedition"
 ---
 

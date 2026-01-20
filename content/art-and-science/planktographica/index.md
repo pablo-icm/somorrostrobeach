@@ -1,5 +1,5 @@
 ---
-title: "Planctographica"
+title: "Planktographica"
 description: ""
 cover:
     image: "/images/planktographica/header.png"

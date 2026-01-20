@@ -36,7 +36,6 @@ Teaser in [Vimeo](https://vimeo.com/1027278145/4c386e3c84?fl=pl&fe=sh)
 
 {{< rawhtml >}}
 <div class="gallery" style="margin: 2rem 0;">
-    <img src="/images/thalastasi.png" alt="Thalastasi 1" onclick="openLightbox(this.src)">
     <img src="/images/thalastasi/IMG_8662.png" alt="Thalastasi 2" onclick="openLightbox(this.src)">
     <img src="/images/thalastasi/DAA-talk.JPG" alt="Thalastasi 3" onclick="openLightbox(this.src)">
     <img src="/images/thalastasi/1L8A7208.jpg" alt="Thalastasi 4" onclick="openLightbox(this.src)">

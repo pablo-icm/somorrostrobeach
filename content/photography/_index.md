@@ -18,6 +18,14 @@ description: "Black and white analog photography"
                     <p>Exploring the hidden beauty of microscopic marine life through analog photography</p>
                 </div>
             </div>
+
+            <div class="slide">
+                <img src="/images/photo/fageda-02.JPG" alt="Darkroom">
+                <div class="slide-caption">
+                    <h3>Darkroom works</h3>
+                </div>
+            </div>
+
             <div class="slide">
                 <img src="/images/planktographica/IMG_0245.jpg" alt="Planktographica 2">
                 <div class="slide-caption">
@@ -25,6 +33,14 @@ description: "Black and white analog photography"
                     <p>Black and white silver gelatin prints from the darkroom</p>
                 </div>
             </div>
+
+            <div class="slide">
+                <img src="/images/photo/sils-01.png" alt="Darkroom">
+                <div class="slide-caption">
+                    <h3>Darkroom works</h3>
+                </div>
+            </div>
+
             <div class="slide">
                 <img src="/images/planktographica/IMG_0246.jpg" alt="Planktographica 3">
                 <div class="slide-caption">
@@ -32,13 +48,30 @@ description: "Black and white analog photography"
                     <p>Where science and art converge in the depths of the ocean</p>
                 </div>
             </div>
+
+            <div class="slide">
+                <img src="/images/photo/part-alta-01.jpg" alt="Darkroom">
+                <div class="slide-caption">
+                    <h3>Darkroom works</h3>
+                </div>
+            </div>
+
             <div class="slide">
                 <img src="/images/planktographica/IMG_0249.jpg" alt="Planktographica 4">
                 <div class="slide-caption">
                     <h3>Planktographica</h3>
-                    <p>Capturing the ethereal forms of plankton</p>
+                    <p>Showing the ethereal forms of plankton</p>
                 </div>
             </div>
+
+            <div class="slide">
+                <img src="/images/photo/fageda-01.jpg" alt="Darkroom">
+                <div class="slide-caption">
+                    <h3>Darkroom works</h3>
+                </div>
+            </div>
+
+
             <div class="slide">
                 <img src="/images/planktographica/IMG_8630.jpg" alt="Planktographica 5">
                 <div class="slide-caption">
@@ -62,7 +95,7 @@ description: "Black and white analog photography"
 
 <script>
 let currentSlide = 0;
-const totalSlides = 5;
+const totalSlides = 8;
 let autoSlideInterval;
 
 function updateSlideshow() {
@@ -112,7 +145,7 @@ document.addEventListener('keydown', function(e) {
 <div class="cards-grid">
 
     <a href="/photography/planktographica/" class="project-card">
-        <img src="/images/planktographica/IMG_0250.jpg" alt="Planktographica" class="card-image">
+        <img src="/images/planktographica/IMG_0246.jpg" alt="Planktographica" class="card-image">
         <div class="card-content">
             <h3 class="card-title">Planktographica</h3>
             <p class="card-description">
@@ -127,7 +160,7 @@ document.addEventListener('keydown', function(e) {
     </a>
 
     <a href="/photography/darkroom-work/" class="project-card">
-        <img src="/images/planktographica/IMG_0251.jpg" alt="Darkroom Work" class="card-image">
+        <img src="/images/photo/fageda-02.JPG" alt="Darkroom Work" class="card-image">
         <div class="card-content">
             <h3 class="card-title">Darkroom Work</h3>
             <p class="card-description">
@@ -146,7 +179,7 @@ document.addEventListener('keydown', function(e) {
 
 ---
 
-## Follow My Photography
+## Follow My on Instagram
 
 {{< rawhtml >}}
 <a href="https://instagram.com/el_pableras" target="_blank" class="contact-card" style="max-width: 400px; margin: 0 auto;">

@@ -23,10 +23,10 @@ The boundary between art and science is often blurred. Both share a common found
         </div>
     </a>
 
-    <a href="/art-and-science/planctographica/" class="project-card">
+    <a href="/art-and-science/planktographica/" class="project-card">
         <img src="/images/planktographica/fanyella-small.png" alt="Planctographica" class="card-image">
         <div class="card-content">
-            <h3 class="card-title">Planctographica</h3>
+            <h3 class="card-title">Planktographica</h3>
             <p class="card-description">
                 Recovering and re-interpreting the photographic heritage of the Scanning Electron Micorscope at the ICM via traditional silver-gelatin photographic printing.
             </p>

@@ -2,7 +2,7 @@
 title: "Planktographica"
 description: "Microscopic marine life through analog photography"
 cover:
-    image: "/images/planktographica/IMG_0250.jpg"
+    image: "/images/planktographica/fanyella.png"
     alt: "Planktographica"
 ---
 

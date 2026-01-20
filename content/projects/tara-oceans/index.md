@@ -2,7 +2,7 @@
 title: "Tara Oceans"
 description: "Global Ocean Plankton Research"
 cover:
-    image: "/images/tara.jpg"
+    image: "/images/polaromics/TPS.png"
     alt: "Tara Oceans"
 ---
 
