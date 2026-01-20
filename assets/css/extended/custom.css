@@ -211,6 +211,19 @@
 /* ========================================
    Project Cards Grid
    ======================================== */
+.projects-section {
+    margin-bottom: 3rem;
+}
+
+.projects-section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--border);
+}
+
 .cards-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));

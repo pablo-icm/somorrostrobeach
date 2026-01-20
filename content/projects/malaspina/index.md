@@ -2,6 +2,7 @@
 title: "Malaspina Expedition"
 description: "Circumnavigation Expedition to investigate Global Change and Global Ocean Biodiversity."
 weight: 2
+role: "collaborator"
 tags:
   - "Deep Ocean"
   - "Global"

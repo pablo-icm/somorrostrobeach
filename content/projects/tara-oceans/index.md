@@ -2,6 +2,7 @@
 title: "Tara Consortium"
 description: "Tara Oceans, Tara Polar Station"
 weight: 3
+role: "collaborator"
 tags:
   - "Plankton"
   - "Climate"

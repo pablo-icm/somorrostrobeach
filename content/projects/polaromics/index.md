@@ -2,6 +2,7 @@
 title: "Polaromics"
 description: "Biogeography and Adaptation Mechanisms in Prokaryotes Across Polar Biomes "
 weight: 1
+role: "ip"
 tags:
   - "Arctic"
   - "Metagenomics"
@@ -15,7 +16,7 @@ cover:
 
 ## Overview
 
-POLAROMICS is a multidisciplinary project integrating different areas of expertise in microbiology, ecology, genomics, bioinformatics, and evolution that share the same overall objective of understanding 1) the biogeographical patterns and ecological connectivity of microbiomes across different polar biomes, 2) the evolutionary diversification process and 3) survival strategies for the adaptation of polar microbes
+POLAROMICS is a multidisciplinary project integrating different areas of expertise in microbiology, ecology, genomics, bioinformatics, and evolution that share the same overall objective of understanding 1) the biogeographical patterns and ecological connectivity of microbiomes across different polar biomes, 2) the evolutionary diversification process and 3) survival strategies for the adaptation of polar microbes. POLAROMICS is co-lead by Silvia G. Acinas and Pablo Sánchez.
 
 The main goal of POLAROMICS is to understand the mechanisms governing the dispersion, ecological connectivity, diversification processes, and survival strategies for the adaptation of polar microbes. Despite the key importance of these processes, relatively little is known about how they operate in microbiomes across divergent polar biomes and their relevance for the resilience of polar ecosystems in the face of climate change. To accomplish its general aim, POLAROMICS pursues the following 4 specific Objectives:
 
